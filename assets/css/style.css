@@ -1,0 +1,80 @@
+body{ margin: 0;
+}
+
+.box{
+  border: 1 px black solid;
+  width: 350px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  box-shadow: 0px 0px 30px grey;
+  }
+
+  .customColor{
+    color: purple !important;
+  }
+
+  #description{
+    color: brown;
+  }
+  p {
+    font-size: 15px;
+  }
+  p.country{
+    font-weight: 900;
+  }
+
+
+
+  /* ================= */
+
+  nav{
+    background-color: rgb(211, 201, 192);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .left{
+    display: flex;
+    align-items: center;
+  }
+
+  .left ul{
+    display: flex;
+    align-items: center;
+  }
+  .left ul li{
+    list-style-type: none;
+    padding-right: 20px;
+  }
+
+  .left ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+
+
+  .right{
+    display: flex;
+    align-items: center;
+    padding-right: 20px ;
+  }
+
+  .right button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(243, 118, 15);
+  }
+
+  .right button a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: 700;
+    padding: 10px 20px;
+    
+  }
+
+
